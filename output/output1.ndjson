@@ -677,3 +677,1234 @@
 
 
 ////////////////////////
+{
+    "title": "GPT understands, too",
+    "authors": "Xiao Liu, Yanan Zheng, Zhengxiao Du, Ming Ding, Yujie Qian, Zhilin Yang, Jie Tang",
+    "venue": "arXiv:2103.10385 [cs.CL]",
+    "depth": 1,
+    "notes": {
+        "Similarity": "Both papers discuss the use of GPT models in research; however, the first paper focuses on improving their performance on natural language understanding tasks, while the second paper proposes a tool that uses a GPT agent to search for and parse relevant information to assess similarities to a user-provided research idea. ",
+        "Difference": "The first paper is a research article that introduces a novel method called P-tuning to improve the natural language understanding of GPTs, while the second paper proposes a research tool that uses GPTs to automate the process of finding related work in research. ",
+        "Score": 3
+    }
+}
+{
+    "title": "Automatic Code Documentation Generation Using GPT-3",
+    "authors": [
+        "Junaed Younus Khan",
+        "Gias Uddin"
+    ],
+    "venue": "ASE '22: Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering",
+    "depth": 1,
+    "notes": {
+        "Similarity": "Both papers employ GPT-based techniques to automate processes in software development and research-related activities.",
+        "Difference": "The first paper focuses on automated code documentation generation, whereas the second paper focuses on finding related work in research using GPT agents to navigate Google Scholar.",
+        "Score": 3
+    }
+}
+{
+    "title": "CGEMs: A metric model for automatic code generation using GPT-3",
+    "authors": [
+        "Aishwarya Narasimhan",
+        "Krishna Prasad Agara Venkatesha Rao",
+        "Veena M B"
+    ],
+    "venue": "arXiv:2108.10168 [cs.AI]",
+    "depth": 1,
+    "notes": {
+        "Similarity": "Both papers are related to the use of GPT for different purposes. The first paper focuses on generating codes using GPT while the second paper proposes a tool that uses GPT to find related work in research. In both papers, GPT models are used as the underlying technology.",
+        "Difference": "The first paper mainly focuses on testing/validating AI-generated codes, while the second paper focuses on using GPT to find relevant research. Although both papers use GPT models, they serve different purposes.",
+        "Score": 2
+    }
+}
+{
+    "title": "Chinese judicial summarising based on short sentence extraction and GPT-2",
+    "authors": [
+        {
+            "name": "Jie Liu"
+        },
+        {
+            "name": "Jiaye Wu"
+        },
+        {
+            "name": "Xudong Luo"
+        }
+    ],
+    "venue": "Knowledge Science, Engineering and Management",
+    "depth": 1,
+    "notes": {
+        "Similarity": "Both papers utilize GPT models in their research. However, they differ in their research topics and goals. The first paper focuses on using GPT models to automate compilation of judicial case summaries in China, while the second paper describes the use of GPT to automatically find related research work in a user-provided topic.   ",
+        "Difference": "The first paper focuses on automating manual summarization of court verdicts in China, while the second paper focuses on using GPT to automate searching for related research work. Additionally, the first paper extracts key components of verdicts and generates summaries through compression and integration using the GPT-2 pre-trained model, whereas the second paper uses a GPT agent to navigate Google Scholar and gather important insights for finding similar work. ",
+        "Score": 2
+    }
+}
+{
+    "title": "Understanding emails and drafting responses--An approach using GPT-3",
+    "authors": [
+        "Jonas Thiergart",
+        "Stefan Huber",
+        "Thomas \u00dcbellacker"
+    ],
+    "venue": "arXiv:2102.03062 [cs.AI]",
+    "depth": 1,
+    "notes": {
+        "Similarity": "Both papers use GPT for different applications, but share the common ground of exploring the technical feasibility of using GPT for a specific purpose.",
+        "Difference": "The first paper focuses on rationalizing email communication while the second paper is about automatically finding related work in research.",
+        "Score": 3
+    }
+}
+{
+    "title": "From Natural Language to Simulations: Applying GPT-3 Codex to Automate Simulation Modeling of Logistics Systems",
+    "authors": [
+        "Ilya Jackson",
+        "Maria Jesus Saenz"
+    ],
+    "venue": "arXiv:2202.12107 [cs.AI]",
+    "depth": 1,
+    "notes": {
+        "Similarity": "Both papers utilize GPT models for automation of tasks in different fields. Specifically, the first paper applies GPT for the automation of the development of simulation models in logistics. The second paper uses GPT for automatically finding related work in research.",
+        "Difference": "The tasks automated using GPT are different for both papers. The first paper automates simulation model development in logistics, while the second paper automates finding related work in research.",
+        "Score": 2
+    }
+}
+{
+    "title": "[HTML][HTML] GPT-3: Its nature, scope, limits, and consequences",
+    "authors": "Luciano Floridi & Massimo Chiriatti",
+    "venue": "Minds and Machines",
+    "depth": 1,
+    "notes": {
+        "Similarity": "Both papers discuss GPT-3, with the first paper analyzing its limitations in passing various tests, and the second paper proposing a tool that uses GPT-3 for automatic research search.",
+        "Difference": "The first paper analyzes the limitations of GPT-3, while the second paper proposes a tool that utilizes GPT-3. The first paper also focuses on general AI and semantic analysis, while the second paper focuses on a specific task of research searching.",
+        "Score": 2
+    }
+}
+{
+    "title": "Chatting about ChatGPT: how may AI and GPT impact academia and libraries?",
+    "authors": [
+        "Brady D. Lund",
+        "Ting Wang"
+    ],
+    "venue": "Library Hi Tech News",
+    "depth": 1,
+    "notes": {
+        "Similarity": "Both papers use GPT and discuss its potential applications in academia and research. However, the specific applications differ, with the mentioned paper focusing on using GPT to automatically find related work in research while the referenced paper focuses on the ChatGPT tool as a chatbot",
+        "Difference": "The mentioned paper proposes a novel system that creates a GPT agent to navigate Google Scholar and find relevant research, while the referenced paper provides an overview of the definitions related to ChatGPT and its underlying technology",
+        "Score": 3
+    }
+}
+{
+    "title": "Automatic text summarization of covid-19 medical research articles using bert and gpt-2",
+    "authors": [
+        "Virapat Kieuvongngam",
+        "Bowen Tan",
+        "Yiming Niu"
+    ],
+    "venue": "arXiv:2006.01997 [cs.CL]",
+    "depth": 1,
+    "notes": {
+        "Similarity": "Both papers use GPT for natural language processing tasks in the context of academic research. Specifically, they aim to automatically extract key information from large amounts of scholarly articles. However, the first paper aims to provide summaries of COVID-19 related literature, while the second paper focuses on finding related work for a given research idea.",
+        "Difference": "The first paper evaluates summarization results using ROUGE scores while the second paper evaluates the system's effectiveness in finding related work using a user-provided research idea. Additionally, the first paper focuses on COVID-19 literature while the second paper can be applied to any research topic.",
+        "Score": 3
+    }
+}
+{
+    "title": "The workweek is the best time to start a family--A Study of GPT-2 Based Claim Generation",
+    "authors": [
+        "Shai Gretz",
+        "Yonatan Bilu",
+        "Edo Cohen-Karlik",
+        "Noam Slonim"
+    ],
+    "venue": "Findings of EMNLP 2020",
+    "depth": 1,
+    "notes": {
+        "Similarity": "Both papers are discussing the use of GPT-based systems for research purposes, but the specific tasks they are addressing are different (argument generation vs. finding related work)",
+        "Difference": "The first paper focuses on generating coherent claims and assessing their veracity, while the second paper focuses on assisting researchers in finding related work. Additionally, the first paper uses an array of manual and automatic assessments to evaluate the claims, while the second paper uses a GPT agent to navigate Google Scholar and gather insights.",
+        "Score": 2
+    }
+}
+{
+    "title": "Pre-train, prompt, and predict: A systematic survey of prompting methods in natural language processing",
+    "authors": "Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, Graham Neubig",
+    "venue": "ACM Computing Surveys",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers discuss the use of GPT language models in natural language processing research, although the focus of each paper is slightly different. Both papers also mention the use of websites and resources to aid researchers in their work.",
+        "Difference": "The paper being assessed focuses on prompt-based learning and organizing related work in the field, while the proposed tool focuses on using GPT to automatically find related work for a given research idea.",
+        "Score": 3
+    }
+}
+{
+    "title": "Pre-trained models for natural language processing: A survey",
+    "authors": "XiPeng Qiu, TianXiang Sun, YiGe Xu, YunFan Shao, Ning Dai & XuanJing Huang",
+    "venue": "Science China Technological Sciences",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers discuss the use of pre-trained models (PTMs) in natural language processing (NLP), however, the first paper provides a comprehensive review of PTMs for NLP while the second paper introduces a tool that uses GPT for automated search and analysis of related research papers",
+        "Difference": "The first paper provides a general overview of PTMs in NLP while the second paper is specifically focused on a tool that uses GPT for automated search and analysis of related research papers",
+        "Score": 3
+    }
+}
+{
+    "title": "The power of scale for parameter-efficient prompt tuning",
+    "authors": "Brian Lester, Rami Al-Rfou, Noah Constant",
+    "venue": "arXiv:2104.08691 [cs.CL]",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers involve the use of GPT and learning mechanics to solve different problems. The first paper explores the use of 'soft prompts' to condition GPT models for specific downstream tasks, while the second paper introduces a tool that uses GPT to automatically find related work in research. However, there is no direct overlap between the specific research problems addressed in each paper.",
+        "Difference": "The first paper is focused on developing prompt tuning as a new mechanism for improving the performance of frozen language models for specific tasks, whereas the second paper introduces a new tool that uses GPT for research assistance by automating the process of finding and parsing research papers to aid researchers in discovering work that is similar to their own.",
+        "Score": 2
+    }
+}
+{
+    "title": "Learning to prompt for vision-language models",
+    "authors": "Kaiyang Zhou, Jingkang Yang, Chen Change Loy & Ziwei Liu",
+    "venue": "International Journal of Computer Vision 130, 2337\u20132348 (2022)",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers are focused on using AI/ML techniques to improve academic research. The first paper discusses the challenges in prompt engineering for deploying pre-trained vision-language models in practice, while the second paper introduces a tool that uses GPT to automatically find related work in research. Both papers explore the concept of using natural language to improve AI/ML-based research",
+        "Difference": "The first paper is focused on the specific challenge of prompt engineering in the deployment of pre-trained vision-language models. The second paper introduces a tool that uses GPT to automatically find related work in research, making research discovery and exploration more efficient. The first paper's focus is on improving pre-existing models, while the second paper introduces a new tool for discovering related research.",
+        "Score": 3
+    }
+}
+{
+    "title": "Cogview: Mastering text-to-image generation via transformers",
+    "authors": [
+        "Ming Ding",
+        "Zhuoyi Yang",
+        "Wenyi Hong",
+        "Wendi Zheng",
+        "Chang Zhou",
+        "Da Yin",
+        "Junyang Lin",
+        "Xu Zou",
+        "Zhou Shao",
+        "Hongxia Yang",
+        "Jie Tang"
+    ],
+    "venue": "Advances in Neural Information Processing Systems 34 (NeurIPS 2021)",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers involve the use of GPT for research purposes, however, the first paper focuses on text-to-image generation while the second paper is about leveraging GPT to automatically find related work in research.",
+        "Difference": "The first paper proposes a model for text-to-image generation, while the second paper proposes a tool that uses GPT to search for related work in research.",
+        "Score": 2
+    }
+}
+{
+    "title": "[HTML][HTML] Pre-trained models: Past, present and future",
+    "authors": [
+        "Xu Han",
+        "Zhengyan Zhang",
+        "Ning Ding",
+        "Yuxian Gu",
+        "Xiao Liu",
+        "Yuqi Huo",
+        "Jiezhong Qiu",
+        "Yuan Yao",
+        "Ao Zhang",
+        "Liang Zhang",
+        "Wentao Han",
+        "Minlie Huang",
+        "Qin Jin",
+        "Yanyan Lan",
+        "Yang Liu",
+        "Zhiyuan Liu",
+        "Zhiwu Lu",
+        "Xipeng Qiu",
+        "Ruihua Song",
+        "Jie Tang",
+        "Jun Zhu"
+    ],
+    "venue": "AI Open",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers discuss the use of GPT in the context of research. The first paper provides a comprehensive review of large-scale pre-trained models and their applications, while the second paper proposes a tool that utilizes GPT to find related work in research. Both papers also discuss the importance of transfer learning and self-supervised learning in their respective contexts.",
+        "Difference": "The first paper provides a broad overview of pre-training and large-scale pre-trained models, while the second paper focuses on a specific tool that uses GPT to find related work in research. Additionally, the first paper discusses the latest breakthroughs in PTMs and future research directions, while the second paper focuses on the implementation of a specific tool.",
+        "Score": 3
+    }
+}
+{
+    "title": "[HTML][HTML] Ptr: Prompt tuning with rules for text classification",
+    "authors": [],
+    "venue": "",
+    "depth": 2,
+    "notes": "Parsing failed. Please read paper manually."
+}
+{
+    "title": "Lora: Low-rank adaptation of large language models",
+    "authors": [
+        "Edward J. Hu",
+        "Yelong Shen",
+        "Phillip Wallis",
+        "Zeyuan Allen-Zhu",
+        "Yuanzhi Li",
+        "Shean Wang",
+        "Lu Wang",
+        "Weizhu Chen"
+    ],
+    "venue": "arXiv:2106.09685 [cs.CL]",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers discuss the use of GPT in natural language processing. The proposed system in your paper uses GPT to automatically find related work in research, while the paper being reviewed introduces a technique called Low-Rank Adaptation for reducing the number of trainable parameters in downstream NLP tasks using GPT, which can improve model efficiency.",
+        "Difference": "The main difference between the two papers is their focus. Your paper is focused on developing a tool to automate the process of finding related work using GPT, while the paper being reviewed is focused on developing a technique for reducing the number of trainable parameters in downstream NLP tasks using GPT.",
+        "Score": 3
+    }
+}
+{
+    "title": "Learning how to ask: Querying LMs with mixtures of soft prompts",
+    "authors": [
+        "Guanghui Qin",
+        "Jason Eisner"
+    ],
+    "venue": "arXiv:2104.06599 [cs.CL]",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers use GPT-based methods to explore research ideas and extract insights. However, the first paper focuses on optimizing prompts for pretrained language models, while the second paper focuses on using GPT to automatically find related work in research.",
+        "Difference": "The first paper investigates the use of gradient descent to learn prompts, while the second paper focuses on using GPT to navigate Google Scholar for related work.",
+        "Score": 2
+    }
+}
+{
+    "title": "Factual probing is [mask]: Learning vs. learning to recall",
+    "authors": [
+        "Zexuan Zhong",
+        "Dan Friedman",
+        "Danqi Chen"
+    ],
+    "venue": "arXiv:2104.05240 [cs.CL]",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers deal with the usage of GPT language model in the field of research. However, the first paper focuses on the retrieval of factual information from a pre-trained language model, whereas the second paper proposes a tool that uses GPT to automatically find related work in research.",
+        "Difference": "The first paper proposes a method to retrieve factual information from a pre-trained language model by expressing them as cloze-style prompts and using a disjoint set of facts as training data. The second paper proposes a tool that uses GPT language model to automatically search and parse relevant information in Google Scholar and compare it to the user-provided research idea in order to find related work in research.",
+        "Score": 2
+    }
+}
+{
+    "title": "GPT understands, too",
+    "authors": "Xiao Liu, Yanan Zheng, Zhengxiao Du, Ming Ding, Yujie Qian, Zhilin Yang, Jie Tang",
+    "venue": "arXiv:2103.10385 [cs.CL]",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers involve the use of GPT models in the domain of natural language processing. However, the first paper explores the application of P-tuning to improve NLU tasks, while the second paper proposes a tool to automatically find related work in research using GPT.",
+        "Difference": "The first paper focuses on the improvement of NLU tasks by introducing P-tuning, while the second paper proposes a tool to find related work using GPT.",
+        "Score": 2
+    }
+}
+{
+    "title": "Common sense or world knowledge? investigating adapter-based knowledge injection into pretrained transformers",
+    "authors": "Anne Lauscher, Olga Majewska, Leonardo F. R. Ribeiro, Iryna Gurevych, Nikolai Rozanov, Goran Glava\u0161",
+    "venue": "arXiv:2005.11787 [cs.CL]",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers deal with utilizing GPT models for language understanding tasks. However, while the paper you provided focuses on automatically finding related work in research, the other paper proposes a model for injecting external structured knowledge into GPT models to improve their performance on inference tasks requiring conceptual knowledge. ",
+        "Difference": "Your paper focuses on developing a tool for researchers, while the other paper explores a specific model for language tasks. Additionally, your paper does not involve the use of external knowledge resources like ConceptNet and OMCS that the other paper utilizes.",
+        "Score": 2
+    }
+}
+{
+    "title": "Pretrained encyclopedia: Weakly supervised knowledge-pretrained language model",
+    "authors": [
+        "Wenhan Xiong",
+        "Jingfei Du",
+        "William Yang Wang",
+        "Veselin Stoyanov"
+    ],
+    "venue": "arXiv:1912.09637 [cs.CL]",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers focus on the use of GPT models in natural language processing research. The first paper investigates the effectiveness of self-supervised learning for capturing real-world knowledge in language models while the second presents a tool that uses GPT to automatically find related work in research.",
+        "Difference": "The first paper proposes a weakly supervised pretraining objective and tests it on entity-related question answering datasets, while the second paper presents a tool for automatically finding related work in research using GPT models.",
+        "Score": 2
+    }
+}
+{
+    "title": "Knowledge-aware language model pretraining",
+    "authors": [
+        "Corby Rosset",
+        "Chenyan Xiong",
+        "Minh Phan",
+        "Xia Song",
+        "Paul Bennett",
+        "Saurabh Tiwary"
+    ],
+    "venue": "arXiv:2007.00655 [cs.CL]",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers relate to the use of GPT for language processing tasks, however, the focus and methodology are different. While the paper to be evaluated proposes a tool to automatically find related work using GPT, the other paper introduces an efficient method for incorporating knowledge-awareness in language model pretraining using entity signals. ",
+        "Difference": "The main difference between the two papers is that they focus on different aspects of GPT usage. The paper to be evaluated proposes a tool for finding related work, while the other paper introduces an approach for enhancing language model pretraining by incorporating knowledge-awareness using entity signals.",
+        "Score": 2
+    }
+}
+{
+    "title": "ERNIE: Enhanced language representation with informative entities",
+    "authors": [
+        "Zhengyan Zhang",
+        "Xu Han",
+        "Zhiyuan Liu",
+        "Xin Jiang",
+        "Maosong Sun",
+        "Qun Liu"
+    ],
+    "venue": "arXiv:1905.07129 [cs.CL]",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers are related to Natural Language Processing and Machine Learning. However, the first paper proposes a model that utilizes both large-scale textual corpora and knowledge graphs to train an enhanced language representation model for knowledge-driven tasks, while the second paper introduces a tool that uses GPT to automatically find related work in research. ",
+        "Difference": "The first paper proposes a model for enhancing language representation with external knowledge using large-scale textual corpora and knowledge graphs, while the second paper introduces a tool that uses GPT to automatically find related work in research.",
+        "Score": 3
+    }
+}
+{
+    "title": "Cert: Contrastive self-supervised learning for language understanding",
+    "authors": [
+        "Hongchao Fang",
+        "Sicheng Wang",
+        "Meng Zhou",
+        "Jiayuan Ding",
+        "Pengtao Xie"
+    ],
+    "venue": "arXiv:2005.12766 [cs.CL]",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers use language understanding models (BERT, GPT); however, the first paper proposes a new contrastive self-supervised learning approach to pretrain and finetune the models at the sentence level. The second paper proposes a tool that employs GPT to automatically find relevant research papers.",
+        "Difference": "The first paper focuses on improving language understanding by proposing the CERT approach, while the second paper aims to enhance the process of finding relevant research papers using GPT.",
+        "Score": 2
+    }
+}
+{
+    "title": "Unifying language learning paradigms",
+    "authors": [
+        "Yi Tay",
+        "Mostafa Dehghani",
+        "Vinh Q. Tran",
+        "Xavier Garcia",
+        "Jason Wei",
+        "Xuezhi Wang",
+        "Hyung Won Chung",
+        "Siamak Shakeri",
+        "Dara Bahri",
+        "Tal Schuster",
+        "Huaixiu Steven Zheng",
+        "Denny Zhou",
+        "Neil Houlsby",
+        "Donald Metzler"
+    ],
+    "venue": "arXiv:2205.05131 [cs.CL]",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers discuss the use of pre-training and architecture for NLP tasks, although the focus and approach are different. The first paper proposes a unified framework for pre-training models while the second paper proposes a tool for using GPT to find related work in research.",
+        "Difference": "The first paper proposes a pre-training framework based on disentangling architectural archetypes and pre-training objectives, while the second paper proposes a tool that uses GPT to automatically find related work in research based on a user-provided research idea.",
+        "Score": 2
+    }
+}
+{
+    "title": "Ernie 3.0: Large-scale knowledge enhanced pre-training for language understanding and generation",
+    "authors": "Yu Sun, Shuohuan Wang, Shikun Feng, Siyu Ding, Chao Pang, Junyuan Shang, Jiaxiang Liu, Xuyi Chen, Yanbin Zhao, Yuxiang Lu, Weixin Liu, Zhihua Wu, Weibao Gong, Jianzhong Liang, Zhizhou Shang, Peng Sun, Wei Liu, Xuan Ouyang, Dianhai Yu, Hao Tian, Hua Wu, Haifeng Wang",
+    "venue": "arXiv:2107.02137 [cs.CL]",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers deal with the use of GPT (Generative Pre-trained Transformer) in the field of natural language processing. While the paper you provided proposes an application of GPT in finding related work in research, the other paper proposes a framework named ERNIE 3.0 for pre-training large-scale knowledge enhanced models.",
+        "Difference": "The difference lies in the specific application of GPT, where one paper applies it in finding related work in research while the other proposes a framework to pre-train large-scale knowledge enhanced models for natural language understanding and generation tasks.",
+        "Score": 4
+    }
+}
+{
+    "title": "Improving multi-task deep neural networks via knowledge distillation for natural language understanding",
+    "authors": "Xiaodong Liu, Pengcheng He, Weizhu Chen, Jianfeng Gao",
+    "venue": "arXiv:1904.09482 [cs.CL]",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers involve the use of machine learning approaches to assist in academic research. The first paper focuses on improving a Multi-Task Deep Neural Network (MT-DNN) using knowledge distillation, while the second paper introduces a tool that utilizes GPT to automatically find related work in research. Although the specific techniques differ, the overall goal of aiding research through machine learning is shared by both papers.",
+        "Difference": "The key difference between the two papers is the specific techniques employed. While the first paper focuses on knowledge distillation to improve a neural network, the second paper utilizes GPT to automate the process of finding related research.",
+        "Score": 3
+    }
+}
+{
+    "title": "Bam! born-again multi-task networks for natural language understanding",
+    "authors": "Kevin Clark, Minh-Thang Luong, Urvashi Khandelwal, Christopher D. Manning, Quoc V. Le",
+    "venue": "arXiv:1907.04829 [cs.CL]",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers use neural network models and propose new methods to improve their performance. However, the first paper deals with multi-task learning and knowledge distillation, while the second paper discusses a tool that uses GPT to automatically find related work in research.",
+        "Difference": "The first paper proposes a new training method for multi-task neural networks, while the second paper introduces a tool that uses GPT to find related work in research.",
+        "Score": 2
+    }
+}
+{
+    "title": "\" What It Wants Me To Say\": Bridging the Abstraction Gap Between End-User Programmers and Code-Generating Large Language Models",
+    "authors": "Michael Xieyang Liu, Advait Sarkar, Carina Negreanu, Ben Zorn, Jack Williams, Neil Toronto, Andrew D. Gordon",
+    "venue": "arXiv:2304.06597 [cs.HC]",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers use GPT models to assist in different research domains: natural language processing and literature review. They also involve using machine learning techniques to improve the user's understanding and performance in their respective areas of research.",
+        "Difference": "The first paper focuses on using GPT to translate natural language queries into Python code for non-expert end-users, while the second paper is focused on creating a GPT agent that helps researchers find related work in their field.",
+        "Score": 3
+    }
+}
+{
+    "title": "Combining Contexts from Multiple Sources for Documentation-Specific Code Example Generation",
+    "authors": [
+        "Junaed Younus Khan",
+        "Gias Uddin"
+    ],
+    "venue": "30th IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER 2023) - ERA",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers use GPT-based models to perform automated tasks in research. However, the tasks are different: the first paper generates code examples from documentation, while the second paper finds related work for a user-provided idea through Google Scholar searches.",
+        "Difference": "The first paper focuses on generating code examples from source code and documentation, while the second paper focuses on finding related work by using GPT to navigate Google Scholar searches.",
+        "Score": 2
+    }
+}
+{
+    "title": "Automatic Code Documentation Generation Using GPT-3",
+    "authors": [
+        "Junaed Younus Khan",
+        "Gias Uddin"
+    ],
+    "venue": "ASE '22: Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers use the GPT model for automation in different areas of software development and research. They also highlight the benefits of automation in terms of efficiency and time-saving.",
+        "Difference": "The first paper focuses on automated code documentation while the second paper focuses on finding related work in research. The first paper uses Codex as the GPT model while the second paper introduces a new GPT agent designed specifically for navigating Google Scholar.",
+        "Score": 3
+    }
+}
+{
+    "title": "A review on source code documentation",
+    "authors": [
+        "Sawan Rai",
+        "Ramesh Chandra Belwal",
+        "Atul Gupta"
+    ],
+    "venue": "ACM Transactions on Intelligent Systems and Technology",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers discuss the use of automated approaches in academic research. The first paper focuses on automated code documentation using natural language processing and machine learning techniques, while the second paper introduces a tool that utilizes GPT for finding related work in research. Both papers mention the use of machine learning and NLP techniques in automated tasks.",
+        "Difference": "The first paper exclusively focuses on automated code documentation, while the second paper proposes a tool for finding related work in research. Both papers differ in terms of their subject matter and methodology.",
+        "Score": 2
+    }
+}
+{
+    "title": "Automatic documentation generation via source code summarization of method context",
+    "authors": [],
+    "venue": "",
+    "depth": 2,
+    "notes": "Parsing failed. Please read paper manually."
+}
+{
+    "title": "NaturalCC: an open-source toolkit for code intelligence",
+    "authors": [
+        "Yao Wan",
+        "Yang He",
+        "Zhangqian Bi",
+        "Jianguo Zhang",
+        "Yulei Sui",
+        "Hongyu Zhang",
+        "Kazuma Hashimoto",
+        "Hai Jin",
+        "Guandong Xu",
+        "Caiming Xiong",
+        "Philip S. Yu"
+    ],
+    "venue": "Proceedings of the ACM/IEEE 44th International Conference on Software Engineering: Companion Proceedings",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers are related to the field of machine learning for source code analysis, but they have different focuses. The first paper presents an open-source toolkit for machine learning-based source code analysis, while the second paper introduces a tool based on GPT for automatically finding related work in research.",
+        "Difference": "The first paper focuses on creating an efficient and extensible toolkit for code intelligence, while the second paper introduces a tool that uses GPT to automatically find related work in research.",
+        "Score": 2
+    }
+}
+{
+    "title": "Behavior-informed algorithms for automatic documentation generation",
+    "authors": "Paige Rodeghero",
+    "venue": "2017 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers deal with automating processes in software engineering. The first paper aims to automatically generate source code documentation, while the second paper introduces a tool that automatically finds related work in research. Both papers use algorithms to mimic human behavior and make processes more efficient.",
+        "Difference": "The first paper focuses solely on source code documentation, while the second paper aims to find related work in research. The first paper analyzes programmer behavior and eye movements, while the second paper uses GPT to navigate Google Scholar and compare research ideas.",
+        "Score": 3
+    }
+}
+{
+    "title": "Effect of Identifier Tokenization on Automatic Source Code Documentation",
+    "authors": [
+        "Sawan Rai",
+        "Ramesh Chandra Belwal",
+        "Atul Gupta"
+    ],
+    "venue": "Arabian Journal for Science and Engineering",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers deal with software development and automatic documentation. However, the first paper is specifically focused on improving the performance of tokenization for automatic documentation, while the second paper describes a tool that uses GPT to find related research papers for a user-provided research idea.",
+        "Difference": "While the first paper proposes an updated tokenization approach to improve the performance of automatic code documentation generation, the second paper introduces a GPT-based tool for finding related research papers. The two papers have different scopes and goals.",
+        "Score": 2
+    }
+}
+{
+    "title": "Context-aware software documentation",
+    "authors": [
+        "Emad Aghajani"
+    ],
+    "venue": "2018 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers address the problem of enhancing the efficiency of developers in software development by automating certain tasks. Specifically, while one paper focuses on context-aware proactive recommendation system for software documentation, the other paper presents a tool that uses GPT to automatically find related work in research.",
+        "Difference": "The difference between the papers is that the first paper focuses on automating the documentation of a piece of code by generating fine-grained code comments for the current context, whereas the second paper introduces a tool that uses GPT to navigate Google Scholar and find related work in research that is similar to a user-provided research idea.",
+        "Score": 3
+    }
+}
+{
+    "title": "From code to natural language: Type-aware sketch-based seq2seq learning",
+    "authors": [
+        "Yuhang Deng",
+        "Hao Huang",
+        "Xu Chen",
+        "Zuopeng Liu",
+        "Sai Wu",
+        "Jifeng Xuan",
+        "Zongpeng Li"
+    ],
+    "venue": "Database Systems for Advanced Applications",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers utilize a neural network approach to solve a problem in the field of natural language processing. The first paper deals with code comment generation while the second paper introduces a tool that uses GPT to find related work in research.",
+        "Difference": "The first paper focuses on the generation of natural language comments from source code, while the second paper is a tool that uses GPT to help researchers find and connect with research that is similar to their own ideas.",
+        "Score": 3
+    }
+}
+{
+    "title": "Is this class thread-safe? inferring documentation using graph-based learning",
+    "authors": [
+        "Andrew Habib",
+        "Michael Pradel"
+    ],
+    "venue": "ASE '18: Proceedings of the 33rd ACM/IEEE International Conference on Automated Software Engineering",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers discuss the use of automated tools to assist researchers in their work. The TSFinder paper presents an approach to automatically classify classes as thread-safe or thread-unsafe, while the other paper introduces a tool that uses GPT to automatically find related research papers.",
+        "Difference": "The TSFinder paper focuses on a specific problem within software development, while the other paper is more general and aims to help researchers in any field find related work. Additionally, the TSFinder paper uses a static analysis and graph-based classifier, while the other paper relies on GPT to navigate Google Scholar and parse relevant information.",
+        "Score": 2
+    }
+}
+{
+    "title": "CodeExp: Explanatory Code Document Generation",
+    "authors": [
+        "Haotian Cui",
+        "Chenglong Wang",
+        "Junjie Huang",
+        "Jeevana Priya Inala",
+        "Todd Mytkowicz",
+        "Bo Wang",
+        "Jianfeng Gao",
+        "Nan Duan"
+    ],
+    "venue": "arXiv:2211.15395 [cs.CL]",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers are related to using AI models to assist researchers in their work. The first paper proposes a code explanation generation task and presents a multi-stage fine-tuning strategy and baseline models for the task, while the second paper introduces a tool that uses GPT to automatically find related work in research. Both papers also deal with large datasets and evaluation metrics. However, the first paper focuses on generating well-structured long docstrings, while the second paper navigates Google Scholar to find and connect with research that is similar to the user's own ideas.",
+        "Difference": "The first paper focuses on generating code explanations, while the second paper helps researchers to find related work in research. The first paper analyzes a large-scale code docstring corpus, and the second paper parses and analyzes research papers from Google Scholar. In terms of methodology, the first paper uses a multi-stage fine-tuning strategy for training the models, while the second paper uses GPT.",
+        "Score": 3
+    }
+}
+{
+    "title": "A paradigm shift from \u201chuman writing\u201d to \u201cmachine generation\u201d in personality test development: An application of state-of-the-art natural language processing",
+    "authors": "Philseok Lee, Shea Fyffe, Mina Son, Zihao Jia & Ziyu Yao",
+    "venue": "Journal of Business and Psychology",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers involve the use of AI and NLP techniques to aid in research processes, though the first paper is focused on psychological assessment while the second paper is focused on finding related work using GPT.",
+        "Difference": "The first paper is an empirical study that explores the application of AI and NLP techniques in psychological assessment to determine personality traits while the second paper presents a tool that uses GPT to automatically find related research based on a user-provided research idea.",
+        "Score": 3
+    }
+}
+{
+    "title": "Ai chains: Transparent and controllable human-ai interaction by chaining large language model prompts",
+    "authors": [
+        "Tongshuang Wu",
+        "Michael Terry",
+        "Carrie Jun Cai"
+    ],
+    "venue": "Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers use GPT to assist in research, but the approach and purpose of the tool are different. The first paper focuses on chaining LLM steps together to enhance system transparency and controllability, while the second paper introduces a tool that uses GPT to automatically find related work in research.",
+        "Difference": "The first paper focuses on enhancing the effectiveness of large language models in assisting humans on complex tasks, while the second paper focuses on automatically finding related research to a user-provided idea.",
+        "Score": 2
+    }
+}
+{
+    "title": "More than you've asked for: A Comprehensive Analysis of Novel Prompt Injection Threats to Application-Integrated Large Language Models",
+    "authors": [
+        {
+            "name": "Kai Greshake"
+        },
+        {
+            "name": "Sahar Abdelnabi"
+        },
+        {
+            "name": "Shailesh Mishra"
+        },
+        {
+            "name": "Christoph Endres"
+        },
+        {
+            "name": "Thorsten Holz"
+        },
+        {
+            "name": "Mario Fritz"
+        }
+    ],
+    "venue": "arXiv:2302.12173",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers are discussing the usage of GPT and language processing, with the first paper focusing on Large Language Models (LLMs) and their susceptibility to targeted adversarial prompting, while the second paper is introducing a tool that uses GPT to automatically find related work in research. Both papers show how language models can be used to solve different problems.",
+        "Difference": "The first paper is discussing the susceptibility of Large Language Models to targeted adversarial prompting, while the second paper is introducing a tool that uses GPT to find related work in research. The first paper is focused on computer science and security, while the second paper is focused on academic research and discovery.",
+        "Score": 2
+    }
+}
+{
+    "title": "Improving Short Text Classification With Augmented Data Using GPT-3",
+    "authors": [
+        "Salvador Balkus",
+        "Donghui Yan"
+    ],
+    "venue": "arXiv:2205.10981 [cs.CL]",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers use GPT as an automated tool for research-related tasks. They also focus on improving the efficiency and accuracy of this tool.",
+        "Difference": "The first paper deals with teaching GPT-3 to classify questions related to data science, while the second paper proposes a tool for GPT to find related work in research.",
+        "Score": 4
+    }
+}
+{
+    "title": "TranSQL: A Transformer-based Model for Classifying SQL Queries",
+    "authors": [
+        "Shirin Tahmasebi",
+        "Amir H. Payberah",
+        "Ahmet Soylu",
+        "Dumitru Roman",
+        "Mihhail Matskin"
+    ],
+    "venue": "2022 21st IEEE International Conference on Machine Learning and Applications (ICMLA)",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers use a transformer-based model to address a specific problem. They also both use GPT to achieve better results.",
+        "Difference": "The papers address different problems: one is about finding similar DSL scripts, while the other is about finding related work in research. They also use different datasets and different search engines.",
+        "Score": 3
+    }
+}
+{
+    "title": "Interactive AI Model Debugging and Correction",
+    "authors": "Wu, Tongshuang",
+    "venue": "ResearchWorks Archive",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers deal with tools for assisting researchers in their work. However, the first paper focuses on the development and deployment of models in natural language processing, while the second paper introduces a tool for using GPT to find related work in research.",
+        "Difference": "The first paper focuses on improving the accuracy and usability of NLP models through human-centered design, while the second paper introduces a tool that uses GPT to automate the search for related research.",
+        "Score": 2
+    }
+}
+{
+    "title": "NLP and Logic Reasoning for Fully Automating Test",
+    "authors": "Nesrine Bnouni Rhim & Mouna Ben Mabrouk",
+    "venue": "International Conference on Innovations in Bio-Inspired Computing and Applications",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers deal with the use of automation and machine learning to simplify and improve a specific research process.",
+        "Difference": "The first paper focuses on using machine learning and natural language processing to automate creating test scenarios while the second paper is about using GPT to assist researchers in finding related work.",
+        "Score": 3
+    }
+}
+{
+    "title": "GPT: Origin, Theory, Application, and Future",
+    "authors": [],
+    "venue": "",
+    "depth": 2,
+    "notes": "Parsing failed. Please read paper manually."
+}
+{
+    "title": "From ChatGPT-3 to GPT-4: A Significant Leap in AI-Driven NLP Tools",
+    "authors": [
+        {
+            "name": "M. M. Tahmid Ahsan",
+            "affiliation": "Shahjalal University of Science and Technology"
+        },
+        {
+            "name": "Md. Saidur Rahaman",
+            "affiliation": "Metropolitan University, Sylhet, Bangladesh"
+        },
+        {
+            "name": "Nishath Anjum",
+            "affiliation": "Metropolitan University Sylhet, Bangladesh"
+        }
+    ],
+    "venue": "SSRN",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers use GPT for different purposes, but share some common ground in terms of exploring advanced natural language processing techniques.",
+        "Difference": "The first paper focuses on improving the performance of GPT-4, while the second paper uses GPT to create a tool for finding related work in research.",
+        "Score": 3
+    }
+}
+{
+    "title": "An NLP approach to assess information security policies",
+    "authors": [
+        "Lundblad, Hampus",
+        "Faramarzi, Pouya"
+    ],
+    "venue": "Chalmers ODR, Examensarbeten f\u00f6r masterexamen",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers utilize natural language machine learning models for a specific task in the field of information technology. More specifically, both papers make use of GPT models for their respective purposes.",
+        "Difference": "The first paper aims to classify the completeness of an information security policy towards a given control, while the second paper introduces a tool that helps researchers find related work for their research idea by using GPT agents to navigate Google Scholar.",
+        "Score": 2
+    }
+}
+{
+    "title": "Understanding emails and drafting responses--An approach using GPT-3",
+    "authors": "Jonas Thiergart, Stefan Huber, Thomas \u00dcbellacker",
+    "venue": "arXiv:2102.03062 [cs.AI]",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers use GPT to solve a natural language related problem. The first paper explores how to rationalize email communication using GPT-3, while the second paper introduces a tool to automatically find related work in research using GPT. ",
+        "Difference": "The first paper focuses on the technical and economic feasibility of using GPT-3 to rationalize email communication. The second paper presents a tool that uses GPT to automatically find and connect with research that is similar to a user's own ideas.",
+        "Score": 3
+    }
+}
+{
+    "title": "When natural language processing jumps into collaborative software engineering",
+    "authors": [
+        "Fabian Gilson",
+        "Danny Weyns"
+    ],
+    "venue": "2019 IEEE International Conference on Software Architecture Companion (ICSA-C)",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers address the use of natural language processing techniques for improving collaboration and knowledge management in software engineering. However, while the first paper proposes the use of bots and interactive processes to document design decisions in real-time, the second paper proposes a tool that uses GPT to find related work in research.",
+        "Difference": "The main difference between the two papers is that the first paper proposes a solution for documenting design decisions during the software development lifecycle, while the second paper proposes a tool for finding related research in the field.",
+        "Score": 3
+    }
+}
+{
+    "title": "[HTML][HTML] Global reconstruction of language models with linguistic rules\u2013Explainable AI for online consumer reviews",
+    "authors": "Markus Binder, Bernd Heinrich, Marcus Hopf & Alexander Schiller",
+    "venue": "Electronic Markets",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers mention the use of AI models for analyzing textual data. The proposed tool in the second paper also utilizes a language model that is a breakthrough in text analytics. Additionally, both papers touch on the subject of black box models.",
+        "Difference": "The first paper focuses on how language models like BERT achieve leading-edge results in applications such as sentiment analysis. The second paper introduces a tool that automates the process of finding related work in research using GPT to assist researchers in connecting with research similar to their own ideas.",
+        "Score": 4
+    }
+}
+{
+    "title": "Natural Language Sentence Generation from API Specifications",
+    "authors": [
+        "Siyu Huo",
+        "Kushal Mukherjee",
+        "Jayachandu Bandlamudi",
+        "Vatche Isahagian",
+        "Vinod Muthusamy",
+        "Yara Rizk"
+    ],
+    "venue": "arXiv:2206.06868 [cs.CL]",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers propose systems that use natural language processing techniques to assist researchers with their tasks. The first paper uses chatbot capabilities to help business users access APIs, while the second paper proposes a tool that automates the search for related research papers using GPT.",
+        "Difference": "The first paper focuses on creating sentences to train intent recognition models to improve chatbot capabilities, while the second paper focuses on using GPT to automatically find related work in research.",
+        "Score": 3
+    }
+}
+{
+    "title": "Delta: a deep learning based language technology platform",
+    "authors": [
+        "Kun Han",
+        "Junwen Chen",
+        "Hui Zhang",
+        "Haiyang Xu",
+        "Yiping Peng",
+        "Yun Wang",
+        "Ning Ding",
+        "Hui Deng",
+        "Yonghu Gao",
+        "Tingwei Guo",
+        "Yi Zhang",
+        "Yahao He",
+        "Baochang Ma",
+        "Yulong Zhou",
+        "Kangli Zhang",
+        "Chao Liu",
+        "Ying Lyu",
+        "Chenxi Wang",
+        "Cheng Gong",
+        "Yunbo Wang",
+        "Wei Zou",
+        "Hui Song",
+        "Xiangang Li"
+    ],
+    "venue": "arXiv:1908.01853 [cs.CL]",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers involve natural language processing and the use of deep learning techniques.",
+        "Difference": "The first paper presents a language technology platform for solving industry level processing problems, while the second paper introduces a tool for using GPT to automatically find related work in research.",
+        "Score": 3
+    }
+}
+{
+    "title": "Chatbot-based assertion generation from natural language specifications",
+    "authors": [
+        "Oliver Keszocze",
+        "Ian G. Harris"
+    ],
+    "venue": "2019 Forum for Specification and Design Languages (FDL)",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers rely on Natural Language Processing techniques to achieve their goals. However, while the first paper presents an approach to simplify the task of extracting assertions from natural language specifications, the second paper introduces a tool that uses GPT to automatically find related work in research.",
+        "Difference": "The first paper leverages the Dialogflow framework from Google to train a model that recognizes natural language expressions of properties, while the second paper uses GPT to create an agent that navigates Google Scholar.",
+        "Score": 3
+    }
+}
+{
+    "title": "Applied Natural Language Processing in the Enterprise",
+    "authors": [
+        "Ankur A. Patel",
+        "Ajay Uppili Arasanipalai"
+    ],
+    "venue": "O'Reilly Media, Inc.",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers deal with the use of technology to make research more efficient and targeted towards the researcher's goals. They both relate to the field of natural language processing and discuss the use of advanced techniques to achieve better results in research.",
+        "Difference": "The first paper is a comprehensive guide to natural language processing for enterprise applications, while the second paper introduces a tool that uses GPT to find related work in research.",
+        "Score": 3
+    }
+}
+{
+    "title": "Natural Language Processing Fundamentals: Build intelligent applications that can interpret the human language to deliver impactful results",
+    "authors": [
+        "Sohom Ghosh",
+        "Dwight Gunning"
+    ],
+    "venue": "Packt Publishing Ltd.",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers are relevant to natural language processing (NLP). The first paper covers the fundamentals of NLP and its evolution, and introduces key NLP and machine learning concepts. The second paper introduces a tool that uses GPT for finding related work in research by navigating Google Scholar, parsing relevant information, and assessing similarities with a user-provided research idea. Both papers focus on using cutting-edge techniques and tools for NLP applications.",
+        "Difference": "The first paper is a textbook that provides an overview of NLP and its techniques for practitioners, developers, and researchers. The second paper is a research paper that introduces a new tool that uses GPT for finding related work by navigating Google Scholar. While both papers are relevant to NLP, the first one is more of a theoretical and educational material, while the second one is more of a practical tool for assisting researchers with their work.",
+        "Score": 4
+    }
+}
+{
+    "title": "What Is Natural Language Processing?",
+    "authors": [
+        {
+            "name": "Taweh Beysolow II",
+            "affiliation": "San Francisco, California, USA"
+        }
+    ],
+    "venue": "Applied Natural Language Processing with Python",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers involve the use of machine learning and natural language processing, and discuss the development of tools to aid researchers in their work.",
+        "Difference": "The first paper focuses on the use and impact of deep learning on advances in NLP, while the second paper presents a tool designed to use GPT to analyze and compare research ideas in the field of machine learning.",
+        "Score": 3
+    }
+}
+{
+    "title": "Natural language processing: an overview",
+    "authors": [
+        "Hessam Amini",
+        "Farhood Farahnak",
+        "Leila Kosseim"
+    ],
+    "venue": "Frontiers in Pattern Recognition and Artificial Intelligence",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers are related to Artificial Intelligence and the use of advanced techniques. The first paper provides an overview of the field of Natural Language Processing, while the second paper introduces a tool that uses GPT to automatically find related work in research.",
+        "Difference": "The first paper covers the background and applications of NLP, while the second paper focuses on a specific tool for finding related work in research using GPT.",
+        "Score": 3
+    }
+}
+{
+    "title": "[HTML][HTML] ChatGPT utility in healthcare education, research, and practice: Systematic review on the promising perspectives and valid concerns",
+    "authors": "Malik Sallam",
+    "venue": "Healthcare 2023, 11(6), 887",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers utilize GPT in the context of healthcare research and education.",
+        "Difference": "The first paper addresses the utility and limitations of ChatGPT in healthcare education, research, and practice, while the second paper proposes a tool that uses a GPT agent to navigate Google Scholar and find related work for a user-provided research idea.",
+        "Score": 3
+    }
+}
+{
+    "title": "The utility of ChatGPT as an example of large language models in healthcare education, research and practice: Systematic review on the future perspectives and\u00a0\u2026",
+    "authors": "Malik Sallam",
+    "venue": "Healthcare",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers explore the use of GPT-based systems in research. The first paper investigates the possible utility of an AI-based conversational LLM, ChatGPT, whereas the second paper introduces a tool that uses GPT to automatically find related work in research. Both papers discuss the benefits and limitations of the use of GPT in research.",
+        "Difference": "The first paper is a systematic review that investigates the possible utility of ChatGPT in healthcare education, research, and practice. The second paper introduces a specific tool that uses GPT to find related work in research. Additionally, the second paper does not address any specific domain, unlike the first paper which is specifically focused on healthcare.",
+        "Score": 3
+    }
+}
+{
+    "title": "[HTML][HTML] An era of ChatGPT as a significant futuristic support tool: A study on features, abilities, and challenges",
+    "authors": "Abid Haleem, Mohd Javaid, Ravi Pratap Singh",
+    "venue": "BenchCouncil Transactions on Benchmarks, Standards and Evaluations, Volume 2, Issue 4, October 2022, 100089",
+    "depth": 2,
+    "notes": {
+        "Similarity": [
+            "Both papers use the GPT architecture in their tools",
+            "Both papers focus on AI applications"
+        ],
+        "Difference": [
+            "The first paper discusses an AI chatbot tool while the second paper discusses a tool for finding related work in research",
+            "The first paper discusses the features and capabilities of ChatGPT while the second paper focuses on the workflow process of their tool",
+            "The second paper uses AutoGPT while the first one doesn't"
+        ],
+        "Score": 3
+    }
+}
+{
+    "title": "ChatGPT and a new academic reality: Artificial Intelligence\u2010written research papers and the ethics of the large language models in scholarly publishing",
+    "authors": [
+        "Brady D. Lund",
+        "Ting Wang",
+        "Nishith Reddy Mannuru",
+        "Bing Nie",
+        "Somipam Shimray",
+        "Ziang Wang"
+    ],
+    "venue": "Journal of the Association for Information Science and Technology",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers use GPT-based models to assist researchers in their work by automating certain tasks. However, the specific tasks and approaches differ.",
+        "Difference": "The first paper discusses the potential impact of ChatGPT on scholarly research and publishing, while the second paper introduces a tool that uses GPT to automatically find related work in research by navigating Google Scholar and comparing user-provided research ideas to relevant information found in research papers.",
+        "Score": 3
+    }
+}
+{
+    "title": "ChatGPT: Jack of all trades, master of none",
+    "authors": "Jan Koco\u0144, Igor Cichecki, Oliwier Kaszyca, Mateusz Kochanek, Dominika Szyd\u0142o, Joanna Baran, Julita Bielaniewicz, Marcin Gruza, Arkadiusz Janz, Kamil Kanclerz, Anna Koco\u0144, Bart\u0142omiej Koptyra, Wiktoria Mieleszczenko-Kowszewicz, Piotr Mi\u0142kowski, Marcin Oleksy, Maciej Piasecki, \u0141ukasz Radli\u0144ski, Konrad Wojtasik, Stanis\u0142aw Wo\u017aniak, Przemys\u0142aw Kazienko",
+    "venue": "arXiv:2302.10724 [cs.CL]",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers utilize the Chat Generative Pre-trained Transformer (GPT) for different purposes. The first paper evaluates the capabilities of ChatGPT in various analytical NLP tasks while the second paper describes a tool that uses GPT to automatically find related work in research. Both papers are related to NLP and GPT, but they have different objectives and focus on different aspects of NLP and GPT.",
+        "Difference": "The first paper examines ChatGPT's capabilities on various analytical NLP tasks and analyzes its results using automated querying process, while the second paper proposes a tool that uses GPT to find related work in research based on a user-provided research idea.",
+        "Score": 2
+    }
+}
+{
+    "title": "Let's have a chat! A Conversation with ChatGPT: Technology, Applications, and Limitations",
+    "authors": [
+        "Sakib Shahriar",
+        "Kadhim Hayawi"
+    ],
+    "venue": "arXiv:2302.13817 [cs.CL]",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers discuss the use of GPT for research-related tasks, with the paper in question discussing the use of a GPT agent to find related work in research while the paper being evaluated discusses the technology behind Chat Generative Pre-trained Transformer (ChatGPT) and its potential applications in healthcare, education, and research. Additionally, both papers acknowledge some of the limitations and ethical concerns surrounding GPT-based systems.",
+        "Difference": "The paper in question focuses on the development of a tool that automates the process of finding related work in research through a GPT agent, while the paper being evaluated provides an overview of ChatGPT's development and highlights potential applications in various domains. The paper being evaluated also includes a perspective from ChatGPT and highlights ethical and privacy concerns related to it.",
+        "Score": 3
+    }
+}
+{
+    "title": "[HTML][HTML] The role of ChatGPT in data science: how AI-assisted conversational interfaces are revolutionizing the field",
+    "authors": [
+        {
+            "name": "Hossein Hassani",
+            "affiliation": "The Research Institute of Energy Management and Planning (RIEMP), University of Tehran, Tehran 19395-4697, Iran"
+        },
+        {
+            "name": "Emmanuel Sirmal Silva",
+            "affiliation": "Fashion Business School, London College of Fashion, University of the Arts London, London W1G 0BJ, UK"
+        }
+    ],
+    "venue": "Big Data Cogn. Comput.",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers focus on the use of GPT models for solving research problems, with the first paper exploring the use of ChatGPT for data science workflows while the second paper proposes a tool that uses GPT to find related work in research.",
+        "Difference": "The first paper discusses the potential opportunities and challenges of using ChatGPT in data science, and specifically how it can be used to automate various aspects of a data scientist's workflow. The second paper proposes a tool that uses GPT to automatically find related work in research, aiming to help researchers find and connect with research that is similar to their own ideas.",
+        "Score": 4
+    }
+}
+{
+    "title": "ChatGPT and the Rise of Large Language Models: The New AI-Driven Infodemic Threat in Public Health",
+    "authors": [
+        {
+            "name": "Luigi De Angelis",
+            "affiliation": "University of Pisa - Department of Translational Research and of New Surgical and Medical Technologies"
+        },
+        {
+            "name": "Francesco Baglivo",
+            "affiliation": "University of Pisa - Department of Translational Research and of New Surgical and Medical Technologies"
+        },
+        {
+            "name": "Guglielmo Arzilli",
+            "affiliation": "University of Pisa - Department of Translational Research and of New Surgical and Medical Technologies"
+        },
+        {
+            "name": "Gaetano Pierpaolo Privitera",
+            "affiliation": "University of Pisa - Department of Translational Research and of New Surgical and Medical Technologies"
+        },
+        {
+            "name": "Paolo Ferragina",
+            "affiliation": "University of Pisa"
+        },
+        {
+            "name": "Alberto Eugenio Tozzi",
+            "affiliation": "Bambino Ges\u00f9 Children's Hospital"
+        },
+        {
+            "name": "Caterina Rizzo",
+            "affiliation": "Universit\u00e0 degli Studi di Pisa - Dipartimento di Ricerca Traslazionale e delle Nuove Tecnologie in Medicina e Chirurgia"
+        }
+    ],
+    "venue": "SSRN Electronic Journal",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers involve the use of GPT-based models for research purposes. While the first paper focuses on the impact of Large Language Models (LLMs) in scientific research and public health, the second paper introduces a tool that uses GPT to automatically find related work in research. Both papers address the potential benefits and challenges of using GPT-based models in research and their impact on the scientific community and society as a whole.",
+        "Difference": "The first paper focuses on the evolution and impact of LLMs, particularly ChatGPT, while the second paper proposes a novel tool that automates the process of finding related research using GPT. The first paper discusses the ethical and practical challenges associated with the use of LLMs, while the second paper addresses the issue of finding related research more efficiently. The first paper discusses the potential of LLMs in supporting scientific research, while the second paper presents a practical solution to a common research problem.",
+        "Score": 3
+    }
+}
+{
+    "title": "The ChatGPT storm and what faculty can do",
+    "authors": [
+        {
+            "name": "Sun, Grace H. DNP, APRN, FNP-BC"
+        },
+        {
+            "name": "Hoelscher, Stephanie H. DNP, RN-BC, CPHIMS, CHISP, FHIMSS"
+        }
+    ],
+    "venue": "Nurse Educator",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers discuss the use of GPT and AI in academia and education",
+        "Difference": "The first paper focuses on the potential ethical use of ChatGPT in nursing education, while the second paper focuses on using GPT to automatically find related work in research",
+        "Score": 3
+    }
+}
+{
+    "title": "ChatGPT and a New Academic Reality: AI-Written Research Papers and the Ethics of the Large Language Models in Scholarly Publishing",
+    "authors": [
+        "Brady Lund",
+        "Ting Wang",
+        "Nishith Reddy Mannuru",
+        "Bing Nie",
+        "Somipam Shimray",
+        "Ziang Wang"
+    ],
+    "venue": "Journal of the Association for Information Science and Technology (2023)",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers use GPT technology in relation to academia and scholarly research, specifically for automating aspects of the research process.",
+        "Difference": "The first paper discusses the potential impact of ChatGPT on academic writing and publishing, while the second paper introduces a tool that uses GPT to automatically find related work in research. The focus of the second paper is more on helping researchers connect with and understand related work, rather than on automating the writing process.",
+        "Score": 3
+    }
+}
+{
+    "title": "Applications of artificial intelligence in battling against covid-19: A literature review",
+    "authors": "Tayarani, Mohammad",
+    "venue": "Chaos, Solitons & Fractals",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers address the topic of using technology to assist and improve research. Specifically, the paper you provided focuses on the use of GPT to find related work in research while the other paper discusses the application of AI in battling against COVID-19.",
+        "Difference": "The paper you provided describes a tool that automates the process of finding related work by using GPT while the other paper provides an overview of the applications of AI in tackling COVID-19",
+        "Score": 4
+    }
+}
+{
+    "title": "Machine learning for text",
+    "authors": [],
+    "venue": "",
+    "depth": 2,
+    "notes": "Parsing failed. Please read paper manually."
+}
+{
+    "title": "A survey of automatic text summarization: Progress, process and challenges",
+    "authors": [
+        "M. F. Mridha",
+        "Aklima Akter Lima",
+        "Kamruddin Nur",
+        "Sujoy Chandra Das",
+        "Mahmud Hasan",
+        "Muhammad Mohsin Kabir"
+    ],
+    "venue": "IEEE Access ( Volume: 9)",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers are related to text summarization but approach the topic from different angles. The first paper focuses on the ATS domain taxonomy and presents a thorough review of extractive and abstractive text summarization technologies, and their limitations and challenges. The second paper presents a tool that uses GPT to automatically find related work in research by navigating Google Scholar for relevant information, which can help researchers connect with similar work to their own ideas.",
+        "Difference": "The first paper discusses the technologies and approaches used in text summarization, while the second paper presents a tool that makes it easier for researchers to find similar research to their own ideas.",
+        "Score": 2
+    }
+}
+{
+    "title": "A survey of the state-of-the-art models in neural abstractive text summarization",
+    "authors": [
+        "Ayesha Ayub Syed",
+        "Ford Lumban Gaol",
+        "Tokuro Matsuo"
+    ],
+    "venue": "IEEE Access",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers discuss automatic summarization systems and neural networks, although the first paper focuses on abstractive summarization and the second on a tool that uses GPT to find related work in research.",
+        "Difference": "The first paper surveys the literature on abstractive summarization while the second introduces a new tool that uses GPT to find related work in research.",
+        "Score": 3
+    }
+}
+{
+    "title": "[HTML][HTML] Pre-trained language models with domain knowledge for biomedical extractive summarization",
+    "authors": [
+        "Qianqian Xie",
+        "Jennifer Amy Bishop",
+        "Prayag Tiwari",
+        "Sophia Ananiadou"
+    ],
+    "venue": "Knowledge-Based Systems",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers discuss the use of pre-trained language models, specifically GPT, in different biomedical tasks. However, the first paper focuses on biomedical text summarization while the second paper is about using GPT to find related work in research. Both papers use GPT to perform language tasks but in different contexts.",
+        "Difference": "The first paper discusses the use of PICO elements to guide text summarization while the second paper uses GPT to navigate Google Scholar and find related work in research. Additionally, the first paper focuses on a specific biomedical task while the second paper is a tool to help researchers find related work in general.",
+        "Score": 2
+    }
+}
+{
+    "title": "Meta-research on COVID-19: An overview of the early trends",
+    "authors": "Giovanni Colavizza",
+    "venue": "arXiv:2106.02961 [cs.DL]",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers discuss research and the use of technology to aid in research. The first paper focuses on the impact of COVID-19 on research and meta-research, while the second paper introduces a tool using GPT to automatically find related work in research.",
+        "Difference": "The first paper discusses the impact of COVID-19 on research practices and trends, while the second paper introduces a specific tool for finding related work in research using GPT.",
+        "Score": 3
+    }
+}
+{
+    "title": "Pre-trained language models in biomedical domain: A systematic survey",
+    "authors": [
+        "Benyou Wang",
+        "Qianqian Xie",
+        "Jiahuan Pei",
+        "Zhihong Chen",
+        "Prayag Tiwari",
+        "Zhao Li",
+        "Jie fu"
+    ],
+    "venue": "arXiv:2110.05006 [cs.CL]",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both papers discuss pre-trained language models and their applications, although from different perspectives.",
+        "Difference": "The first paper surveys recent progress in pre-trained language models for the biomedical domain and proposes a taxonomy of existing biomedical PLMs, while the second paper introduces a tool that uses GPT to automatically find related work in research.",
+        "Score": 3
+    }
+}
+{
+    "title": "[HTML][HTML] COVIDSum: A linguistically enriched SciBERT-based summarization model for COVID-19 scientific papers",
+    "authors": "Xiaoyan Cai, Sen Liu, Libin Yang, Yan Lu, Jintao Zhao, Dinggang Shen, Tianming Liu",
+    "venue": "Journal of Biomedical Informatics, Volume 127, March 2022, 103999",
+    "depth": 2,
+    "notes": {
+        "Similarity": "Both the paper and your idea deal with research and finding relevant information. The paper discusses researchers using scientific papers to share their research progress to help diagnose, treat, and prevent COVID-19. Your idea discusses a tool that uses GPT to automatically find related work in research and use expert navigation to help researchers find and connect with research that is similar to their own ideas.",
+        "Difference": "The main difference between the paper and your idea is the topic of focus. The paper discusses COVID-19 and ways to help diagnose, treat, and prevent the virus. Your idea is focused on a tool that can assist researchers in navigating relevant information and finding related work in research.",
+        "Score": 4
+    }
+}
