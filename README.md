@@ -72,6 +72,10 @@ python main.py -i path/to/your/input.ndjson
 
 3. The program will generate a JSON report in the specified output file.
 
+##GPT-3.5/GPT-4
+
+Go to website_parser.py, change `gpt-3.5-turbo` to `gpt-4` in desired openai call. Please note that use GPT-4 will significantly increase the cost and analyze time.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
