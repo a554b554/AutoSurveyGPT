@@ -13,7 +13,7 @@ AutoSurveyGPT is an open-source program for parsing Google Scholar and finding r
 
 ### Features under Development
 - Parsing PDFs: Extract the introduction section for comparison with the provided description, and the related work section for identifying other relevant studies.
-- Pause and resume paper hunting at any time.
+- Save current paper searching progress and resume it at any time.
 
 ## Prerequisites
 
