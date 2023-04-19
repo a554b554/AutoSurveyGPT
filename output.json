@@ -1,0 +1,280 @@
+[
+    {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Practical Noninvasive Brain\u2013Machine Interface System for Communication and Control",
+            "author": [
+                "K Kansaku"
+            ],
+            "pub_year": "2015",
+            "venue": "Clinical Systems Neuroscience",
+            "abstract": "flickering stimuli (41, 43, and 45 Hz) and invisible flickering  using both visible and invisible  flickering stimuli (mean success  detected the AR marker of the desk light, a flicker panel for"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-4-431-55037-2_2",
+        "author_id": [
+            "i_j_TOcAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:RZMbqn0167AJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3DAR%2BMarkers%2Binvisible%2Bflickering%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=RZMbqn0167AJ&ei=t4E8ZMbvNe6N6rQP49W1gAY&json=",
+        "num_citations": 2,
+        "citedby_url": "/scholar?cites=12748341984043438917&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:RZMbqn0167AJ:scholar.google.com/&scioq=AR+Markers+invisible+flickering&hl=en&as_sdt=0,33"
+    },
+    {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Indoor Localization for Quadrotors using Invisible Projected Tags",
+            "author": [
+                "J Li",
+                "L Han",
+                "Z Ren"
+            ],
+            "pub_year": "2022",
+            "venue": "2022 International Conference on Robotics \u2026",
+            "abstract": "to be as small as possible to raise invisibility. The flicker fusion property of HVS is also called   To test the performance, we designed an AR quadrotor flight platform, of which the structure"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/9812449/",
+        "author_id": [
+            "S_5A5pkAAAAJ",
+            "gx0l_7cAAAAJ",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:LLohlbQGc_oJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3DAR%2BMarkers%2Binvisible%2Bflickering%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=LLohlbQGc_oJ&ei=t4E8ZMbvNe6N6rQP49W1gAY&json=",
+        "num_citations": 0,
+        "url_related_articles": "/scholar?q=related:LLohlbQGc_oJ:scholar.google.com/&scioq=AR+Markers+invisible+flickering&hl=en&as_sdt=0,33",
+        "eprint_url": "https://arxiv.org/pdf/2203.00356"
+    },
+    {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Imperceptible AR Markers for Near-screen Pointing Interaction Using Smartphones",
+            "author": [
+                "A Matsumoto"
+            ],
+            "pub_year": "2020",
+            "venue": "NA",
+            "abstract": "Imperceptible color vibration is a promising method for embedding invisible code into images,  in the temporal domain. The maximum chromatic flicker frequency perceptible to the"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://repository.dl.itc.u-tokyo.ac.jp/?action=repository_uri&item_id=54228&file_id=14&file_no=1",
+        "author_id": [
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:0DuOy3YqOBEJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3DAR%2BMarkers%2Binvisible%2Bflickering%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=0DuOy3YqOBEJ&ei=t4E8ZMbvNe6N6rQP49W1gAY&json=",
+        "num_citations": 0,
+        "url_related_articles": "/scholar?q=related:0DuOy3YqOBEJ:scholar.google.com/&scioq=AR+Markers+invisible+flickering&hl=en&as_sdt=0,33",
+        "eprint_url": "https://repository.dl.itc.u-tokyo.ac.jp/?action=repository_uri&item_id=54228&file_id=14&file_no=1"
+    },
+    {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Vrcodes: Unobtrusive and active visual codes for interaction by exploiting rolling shutter",
+            "author": [
+                "G Woo",
+                "A Lippman",
+                "R Raskar"
+            ],
+            "pub_year": "2012",
+            "venue": "\u2026 Mixed and Augmented Reality  \u2026",
+            "abstract": "Our eyes have a measurable critical flicker-fusion threshold beyond which we can not  detect alternating metamers. What appears as an ordinary gray surface may actually embed"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/6402539/",
+        "author_id": [
+            "",
+            "",
+            "8hpOmVgAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:OnOjyfRlSxoJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3DAR%2BMarkers%2Binvisible%2Bflickering%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=OnOjyfRlSxoJ&ei=t4E8ZMbvNe6N6rQP49W1gAY&json=",
+        "num_citations": 104,
+        "citedby_url": "/scholar?cites=1894720170268783418&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:OnOjyfRlSxoJ:scholar.google.com/&scioq=AR+Markers+invisible+flickering&hl=en&as_sdt=0,33"
+    },
+    {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "EmnDash: A Robust High-Speed Spatial Tracking System Using a Vector-Graphics Laser Display with M-Sequence Dashed Markers",
+            "author": [
+                "T Sueishi",
+                "R Nishizono",
+                "M Ishikawa"
+            ],
+            "pub_year": "2022",
+            "venue": "Journal of Robotics and \u2026",
+            "abstract": "The critical flicker frequency is the threshold at which a flicker of light becomes invisible to  the  : Synchronization-free single-shot detection of imperceptible AR markers embedded in a"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://www.jstage.jst.go.jp/article/jrobomech/34/5/34_1085/_article/-char/ja/",
+        "author_id": [
+            "00SsiVwAAAAJ",
+            "cqWBocsAAAAJ",
+            "MPwVuGwAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:xkj07wrk37cJ:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3DAR%2BMarkers%2Binvisible%2Bflickering%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=xkj07wrk37cJ&ei=t4E8ZMbvNe6N6rQP49W1gAY&json=",
+        "num_citations": 0,
+        "url_related_articles": "/scholar?q=related:xkj07wrk37cJ:scholar.google.com/&scioq=AR+Markers+invisible+flickering&hl=en&as_sdt=0,33",
+        "eprint_url": "https://www.jstage.jst.go.jp/article/jrobomech/34/5/34_1085/_pdf"
+    },
+    {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Visually-based temporal distortion in dyslexia",
+            "author": [
+                "A Johnston",
+                "A Bruno",
+                "J Watanabe",
+                "B Quansah",
+                "N Patel"
+            ],
+            "pub_year": "2008",
+            "venue": "Vision research",
+            "abstract": "In this study, we show that invisible flicker adaptation reduces the perceived duration of a  subsequently viewed stimulus in control subjects, but not in dyslexics. Dyslexics, like controls,"
+        },
+        "filled": false,
+        "gsrank": 6,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S0042698908002332",
+        "author_id": [
+            "7yX9fdIAAAAJ",
+            "YTrztUUAAAAJ",
+            "",
+            "",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:nOqatlmvTWEJ:scholar.google.com/&output=cite&scirp=5&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3DAR%2BMarkers%2Binvisible%2Bflickering%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=nOqatlmvTWEJ&ei=t4E8ZMbvNe6N6rQP49W1gAY&json=",
+        "num_citations": 71,
+        "citedby_url": "/scholar?cites=7011452994736286364&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:nOqatlmvTWEJ:scholar.google.com/&scioq=AR+Markers+invisible+flickering&hl=en&as_sdt=0,33",
+        "eprint_url": "https://www.sciencedirect.com/science/article/pii/S0042698908002332"
+    },
+    {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "iMarker: Instant and True-to-scale AR with Invisible Markers",
+            "author": [
+                "C Xiao",
+                "R Rossi",
+                "E Koh"
+            ],
+            "pub_year": "2022",
+            "venue": "Adjunct Proceedings of the 35th Annual ACM \u2026",
+            "abstract": "When the changes are above the Critical Flicker Frequency (CFF), the human vision  system is not able to detect the changes, while only the averaged luminance is perceived. For"
+        },
+        "filled": false,
+        "gsrank": 7,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/3526114.3558721",
+        "author_id": [
+            "QghjQNYAAAAJ",
+            "_Dc6lbQAAAAJ",
+            "2V7DKesAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Dvt9jxboDdIJ:scholar.google.com/&output=cite&scirp=6&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3DAR%2BMarkers%2Binvisible%2Bflickering%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=Dvt9jxboDdIJ&ei=t4E8ZMbvNe6N6rQP49W1gAY&json=",
+        "num_citations": 0,
+        "url_related_articles": "/scholar?q=related:Dvt9jxboDdIJ:scholar.google.com/&scioq=AR+Markers+invisible+flickering&hl=en&as_sdt=0,33"
+    },
+    {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Infoled: Augmenting led indicator lights for device positioning and communication",
+            "author": [
+                "J Yang",
+                "JA Landay"
+            ],
+            "pub_year": "2019",
+            "venue": "Proceedings of the 32nd Annual ACM Symposium \u2026",
+            "abstract": "Augmented Reality (AR) has the potential to expand our capability for interacting with and  comprehending our surrounding environment. However, current AR  the InfoLED is flickering in"
+        },
+        "filled": false,
+        "gsrank": 8,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/3332165.3347954",
+        "author_id": [
+            "coVkhKMAAAAJ",
+            "oQsObk0AAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:N63NRVXOyhQJ:scholar.google.com/&output=cite&scirp=7&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3DAR%2BMarkers%2Binvisible%2Bflickering%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=N63NRVXOyhQJ&ei=t4E8ZMbvNe6N6rQP49W1gAY&json=",
+        "num_citations": 6,
+        "citedby_url": "/scholar?cites=1498236691692760375&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:N63NRVXOyhQJ:scholar.google.com/&scioq=AR+Markers+invisible+flickering&hl=en&as_sdt=0,33"
+    },
+    {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Augmented reality application assessment for disseminating rock art",
+            "author": [
+                "S Blanco-Pons",
+                "B Carri\u00f3n-Ruiz",
+                "JL Lerma"
+            ],
+            "pub_year": "2019",
+            "venue": "Multimedia Tools and \u2026",
+            "abstract": "indoor is better, faster and flicker-free whether the images are properly enhanced, but it  does not work properly on site. Therefore, the development of AR apps for complex outdoor"
+        },
+        "filled": false,
+        "gsrank": 9,
+        "pub_url": "https://link.springer.com/article/10.1007/s11042-018-6609-x",
+        "author_id": [
+            "",
+            "",
+            "kM72j3IAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:-QoLirjdwYIJ:scholar.google.com/&output=cite&scirp=8&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3DAR%2BMarkers%2Binvisible%2Bflickering%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=-QoLirjdwYIJ&ei=t4E8ZMbvNe6N6rQP49W1gAY&json=",
+        "num_citations": 21,
+        "citedby_url": "/scholar?cites=9422055680095488761&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:-QoLirjdwYIJ:scholar.google.com/&scioq=AR+Markers+invisible+flickering&hl=en&as_sdt=0,33",
+        "eprint_url": "https://riunet.upv.es/bitstream/handle/10251/125098/Blanco-Pons?sequence=7"
+    },
+    {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Imperceptible color vibration for screen-camera communication via 2d binary pattern",
+            "author": [
+                "S Abe",
+                "T Hiraki",
+                "S Fukushima"
+            ],
+            "pub_year": "2020",
+            "venue": "ITE Transactions on Media \u2026",
+            "abstract": "invisibility by using high-speed chromatic flicker instead of high-speed luminance flicker.   Although we have proposed the near-screen mobile interaction with imperceptible AR Markers"
+        },
+        "filled": false,
+        "gsrank": 10,
+        "pub_url": "https://www.jstage.jst.go.jp/article/mta/8/3/8_170/_article/-char/ja/",
+        "author_id": [
+            "",
+            "Rwu3B4cAAAAJ",
+            "dpMEfDwAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:1LVpyKcdM48J:scholar.google.com/&output=cite&scirp=9&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3DAR%2BMarkers%2Binvisible%2Bflickering%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=1LVpyKcdM48J&ei=t4E8ZMbvNe6N6rQP49W1gAY&json=",
+        "num_citations": 3,
+        "citedby_url": "/scholar?cites=10318623777695053268&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:1LVpyKcdM48J:scholar.google.com/&scioq=AR+Markers+invisible+flickering&hl=en&as_sdt=0,33",
+        "eprint_url": "https://www.jstage.jst.go.jp/article/mta/8/3/8_170/_pdf"
+    }
+]
+
+

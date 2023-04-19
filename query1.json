@@ -1,0 +1,12 @@
+{
+    "search_query": "GPT automatic related work search",
+    "my_topic": "We introduce a tool that uses GPT to automatically find related work in research. Drawing inspiration from AutoGPT, our system is designed to create a GPT agent that expertly navigates Google Scholar, searching for and parsing relevant information, which is then compared to a user-provided research idea in order to assess similarities. The GPT agent can work non-stop, carefully reading research papers and gathering important insights. Using these insights, the agent finds related work and starts additional rounds of focused searches. This approach greatly helps researchers by making it easy for them to find and connect with research that is similar to their own ideas, leading to a better understanding of the topic.",
+    "search_breadth": 10,
+    "search_depth_cited": 1,
+    "search_depth_related": 1,
+    "max_papers":100,
+
+    "relevance_threshold":3,
+
+    "output_file":"output/output1.ndjson"
+}

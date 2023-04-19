@@ -1,0 +1,6 @@
+**/__pycache__
+config.py
+log/*
+driver/*
+legacy
+output/*
