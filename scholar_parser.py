@@ -8,6 +8,7 @@ import logging
 from logging_config import setup_logging
 import re
 import time
+import random
 
 class GScholarParser:
     def __init__(self, driver_path="driver/chromedriver.exe") -> None:
@@ -18,7 +19,7 @@ class GScholarParser:
         gsentries = []
 
         #timeout set for preventing anti-bot trigger
-        time.sleep(3)
+        time.sleep(random.randint(1, 12))
         self.browser.get(url)
         html = self.browser.page_source
         soup = BeautifulSoup(html, 'html.parser')
