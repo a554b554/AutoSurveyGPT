@@ -26,9 +26,12 @@ class GScholarParser:
         self.logger.info("found "+str(len(res))+" records in url.")
 
         next_page_html = soup.find(id="gs_n")
-        next_page_urls = next_page_html.find_all('a')
-        next_page_url = next_page_urls[-1].get('href')
-        logging.info('getting next page url:'+str(next_page_url))
+        if next_page_html is not None:
+            next_page_urls = next_page_html.find_all('a')
+            next_page_url = next_page_urls[-1].get('href')
+            logging.info('getting next page url:'+str(next_page_url))
+        else:
+            next_page_url = None
 
 
         for i in range(len(res)):
@@ -55,9 +58,12 @@ class GScholarParser:
         pattern = r'\[PDF\]|\[B\]|\[BOOK\]'
         title = re.sub(pattern, '', title).strip()
 
-        pub_url = title_html.find("a").get("href")
-        self.logger.debug('title:'+title)
-        self.logger.debug('pub_url:'+str(pub_url))
+        try:
+            pub_url = title_html.find("a").get("href")
+            self.logger.debug('title:'+title)
+            self.logger.debug('pub_url:'+str(pub_url))
+        except AttributeError as e:
+            pub_url = None
 
 
 
@@ -65,18 +71,19 @@ class GScholarParser:
         cited_by_url = ""
         related_url = ""
         version_url = ""
-        for url in url_list:
-            link = url.get("href")
-            if "/scholar?cites" in link:
-                cited_by_url = "https://scholar.google.com"+link
-                self.logger.debug("cited by: "+cited_by_url)
-            elif "/scholar?q=related" in link:
-                related_url = "https://scholar.google.com"+link
-                self.logger.debug("related: "+related_url)
-            elif "/scholar?cluster" in link:
-                version_url = link
-            else:
-                pass
+        if url_list is not None:
+            for url in url_list:
+                link = url.get("href")
+                if "/scholar?cites" in link:
+                    cited_by_url = "https://scholar.google.com"+link
+                    self.logger.debug("cited by: "+cited_by_url)
+                elif "/scholar?q=related" in link:
+                    related_url = "https://scholar.google.com"+link
+                    self.logger.debug("related: "+related_url)
+                elif "/scholar?cluster" in link:
+                    version_url = link
+                else:
+                    pass
         
         gs = GSEntry(title, pub_url, cited_by_url, related_url, version_url)
         return gs

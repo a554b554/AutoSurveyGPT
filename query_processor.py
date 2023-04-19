@@ -82,8 +82,8 @@ class QueryProcessor:
     def perform(self):
         current_task = self.task_queue[self.current_task_id]
         
-        
-        parsing_results = self.website_parser.visit_url_and_parse(current_task.metadata['pub_url'])
+        if current_task.metadata['pub_url'] is not None:
+            parsing_results = self.website_parser.visit_url_and_parse(current_task.metadata['pub_url'])
         
         if parsing_results is None:
             current_task.process_status = 1
