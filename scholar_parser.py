@@ -12,7 +12,15 @@ import random
 
 class GScholarParser:
     def __init__(self, driver_path="driver/chromedriver.exe") -> None:
-        self.browser = webdriver.Chrome(executable_path=driver_path)
+        chrome_options = webdriver.ChromeOptions()
+        # Adding argument to disable the AutomationControlled flag 
+        chrome_options.add_argument("--disable-blink-features=AutomationControlled") 
+
+
+
+        self.browser = webdriver.Chrome(executable_path=driver_path, chrome_options=chrome_options)
+        
+
         self.logger = logging.getLogger(__name__)
         
     def visit_url(self, url, depth=1):
@@ -21,6 +29,8 @@ class GScholarParser:
         #timeout set for preventing anti-bot trigger
         time.sleep(random.randint(1, 12))
         self.browser.get(url)
+
+
         html = self.browser.page_source
         soup = BeautifulSoup(html, 'html.parser')
         res = soup.find_all('div', attrs={'class': 'gs_r gs_or gs_scl'})

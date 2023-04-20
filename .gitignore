@@ -1,3 +1,4 @@
 **/__pycache__
 config.py
 legacy
+scholar_parse_proxy.py
