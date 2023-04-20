@@ -14,8 +14,9 @@ import time
 from scholar_parser import GScholarParser, GSEntry
 
 class GenericWebsiteParser:
-    def __init__(self, driver_path="driver/chromedriver.exe") -> None:
+    def __init__(self, driver_path="driver/chromedriver") -> None:
         self.browser = webdriver.Chrome(driver_path)
+        self.browser.implicitly_wait(5)
         self.logger = logging.getLogger(__name__)
         
   
@@ -34,6 +35,7 @@ class GenericWebsiteParser:
 
 
         self.browser.get(url)
+        logging.debug('Processing url: '+url)
         html = self.browser.page_source
         txt = self.browser.find_element(By.XPATH, "/html/body").text
         # self.logger.info('extracted text for '+url+': '+txt)

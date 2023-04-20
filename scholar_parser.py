@@ -11,7 +11,7 @@ import time
 import random
 
 class GScholarParser:
-    def __init__(self, driver_path="driver/chromedriver.exe") -> None:
+    def __init__(self, driver_path="driver/chromedriver") -> None:
         chrome_options = webdriver.ChromeOptions()
         # Adding argument to disable the AutomationControlled flag 
         chrome_options.add_argument("--disable-blink-features=AutomationControlled") 
@@ -19,7 +19,7 @@ class GScholarParser:
 
 
         self.browser = webdriver.Chrome(executable_path=driver_path, chrome_options=chrome_options)
-        
+        self.browser.implicitly_wait(5)
 
         self.logger = logging.getLogger(__name__)
         
@@ -27,7 +27,7 @@ class GScholarParser:
         gsentries = []
 
         #timeout set for preventing anti-bot trigger
-        time.sleep(random.randint(1, 12))
+        time.sleep(random.randint(6, 30))
         self.browser.get(url)
 
 

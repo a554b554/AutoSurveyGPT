@@ -60,11 +60,14 @@ class QueryProcessor:
             return False
 
 
-    def gs_search(self, url, depth=1):
+    def gs_search(self, url, depth=1, repeat_flag=False):
 
         len_before = len(self.task_queue)
 
-        self.task_queue += self.gsparse.visit_url(url, depth)
+        if repeat_flag:
+            self.task_queue += self.gsparse.visit_url(url, depth)[1:]
+        else:
+            self.task_queue += self.gsparse.visit_url(url, depth)
 
         
         while len(self.task_queue)-len_before<self.initial_query['search_breadth']:
@@ -78,8 +81,11 @@ class QueryProcessor:
             self.task_queue = self.task_queue[:len_before+self.initial_query['search_breadth']]
 
         logging.info('total parsed papers: '+str(len(self.task_queue)-len_before)+' at depth: '+str(depth))
+        
 
     def perform(self):
+        logging.debug("current id:"+str(self.current_task_id)+" done id:"+str(self.reported_task_id))
+        logging.debug('grand total paper list:'+str(len(self.task_queue)))
         current_task = self.task_queue[self.current_task_id]
         
         if current_task.metadata['pub_url'] is not None:
@@ -94,7 +100,7 @@ class QueryProcessor:
 
 
             #update queue
-            if current_task.notes['Score'] >= self.rel_thre:
+            if int(current_task.notes['Score']) >= self.rel_thre and len(self.task_queue)<self.initial_query['max_papers']:
                 self.update_queue_by_cited(current_task)
                 self.update_queue_by_related(current_task)
 
@@ -119,7 +125,7 @@ class QueryProcessor:
         elif task.metadata['related_url'] == "":
             return
         else:
-            self.gs_search(task.metadata['related_url'], depth=task.depth+1)
+            self.gs_search(task.metadata['related_url'], depth=task.depth+1, repeat_flag=True)
         
 
     def write_report(self):
