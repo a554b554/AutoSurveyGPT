@@ -85,7 +85,7 @@ class QueryProcessor:
 
     def perform(self):
         logging.debug("current id:"+str(self.current_task_id)+" done id:"+str(self.reported_task_id))
-        logging.debug('grand total paper list:'+str(len(self.task_queue)))
+        logging.debug('grand total paper in list:'+str(len(self.task_queue)))
         current_task = self.task_queue[self.current_task_id]
         
         if current_task.metadata['pub_url'] is not None:
