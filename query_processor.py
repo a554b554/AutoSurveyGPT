@@ -24,18 +24,6 @@ class QueryProcessor:
     def initiate_search(self):
         keywords = self.initial_query['search_query']
         initial_url = QueryProcessor.gen_gs_search(keywords)
-        # self.task_queue += self.gsparse.visit_url(initial_url)
-
-        # while len(self.task_queue)<self.initial_query['search_breadth']:
-        #     logging.info('parsed papers: '+str(len(self.task_queue))+' '+str(self.task_queue[-1]))
-        #     if self.task_queue[-1].metadata['next_page_url'] == "":
-        #         break
-        #     self.task_queue += self.gsparse.visit_url(self.task_queue[-1].metadata['next_page_url'])
-        
-        # if self.task_queue > self.initial_query['search_breadth']:
-        #     self.task_queue = self.task_queue[:self.initial_query['search_breadth']]
-
-        # logging.info('total parsed papers: '+str(len(self.task_queue)))
 
         self.gs_search(initial_url, depth=1)
         print('initial parsing done')

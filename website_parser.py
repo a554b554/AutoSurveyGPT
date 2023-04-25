@@ -12,6 +12,8 @@ import openai
 import json
 import time
 from scholar_parser import GScholarParser, GSEntry
+import gpt_config
+import prompt
 
 class GenericWebsiteParser:
     def __init__(self, driver_path="driver/chromedriver") -> None:
@@ -56,11 +58,8 @@ class GenericWebsiteParser:
         tryout = 0
         while tryout<max_tryout:
             res = openai.ChatCompletion.create(
-                model="gpt-3.5-turbo",
-                messages=[
-                        {"role": "system", "content": "You are a document parser, I want to you extract information in a text document"},
-                        {"role": "user", "content": "This is a text document extracted from a webpage: ["+html_text+"] can you extract paper title, paper author, publication venue, and abstract from the document? Please return the answer in a json format, the keys in json are <title>, <authors>, <venue>, <abstract>. Please make sure to extract the full abstract."},
-                    ]
+                model=gpt_config.html_parse_model,
+                messages=prompt.html_parsing_prompt(html_text)
             )
             ans = res['choices'][0]['message']['content']
             try:
@@ -81,13 +80,13 @@ class GenericWebsiteParser:
         raise NotImplementedError
 
     @staticmethod
-    def read_abstract_by_gpt(abstract:str, prompt:str, max_tryout=3):
+    def read_abstract_by_gpt(abstract:str, my_topic:str, max_tryout=3):
         """
         This function parse the abstract based on the prompt.
 
         Parameters:
         abstract (str): The target abstract to be parsed.
-        prompt (str): The instruction on how to parse the abstract.
+        my_topic (str): The instruction on how to parse the abstract.
 
         Returns:
         str: Parsing results.
@@ -97,11 +96,8 @@ class GenericWebsiteParser:
             logging.info("tryout: "+str(tryout)+". Analyzing abstract for "+abstract)
             openai.api_key = config.openai_api_key
             res = openai.ChatCompletion.create(
-                model="gpt-3.5-turbo",
-                messages=[
-                        {"role": "system", "content": "You are an academic researcher's assistant, I want to you read a paper and tell me whether it is relevant to my idea or not."},
-                        {"role": "user", "content": "Here is the abstract of a paper: ["+abstract+"]. Here is the description of my paper:["+prompt+"].  Please read them and answer my question: [Q1: What are the similarities between this paper and my idea? Q2: What are the difference between the paper and my idea? Q3: Please provide a similarity score from 1 to 5, where a higher score indicates greater relevance between two research papers. Use the following calibration for the scores: 1 - Not relevant: Papers from different fields with no shared methodologies or insights, e.g., one paper on natural language processing and the other on computer graphics. 2 - Somewhat relevant: Papers from the same subfield, such as adversarial learning, neural rendering, or tangible input interfaces. 3 - Relevant: Papers addressing similar problems (e.g., increasing the robustness of adversarial learning, tangible input interfaces in AR), or using similar methodologies to solve different problems. Papers with this level of similarity should be considered for citation. 4 - Very relevant: Papers addressing similar problems and using similar techniques. 5 - Mostly relevant: Papers addressing almost identical problems and using similar techniques.] Please provide your answer in .json format, the keys are <Similarity>, <Difference>, <Score>"},
-                    ]
+                model=gpt_config.abstract_parse_model,
+                messages=prompt.read_abstract_prompt(abstract, my_topic)
             )
 
             ans = res['choices'][0]['message']['content']
