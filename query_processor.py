@@ -9,6 +9,7 @@ import logging
 import json
 from website_parser import GenericWebsiteParser
 import os
+from gs_query_generator import gen_gs_query
 
 
 class QueryProcessor:
@@ -22,7 +23,10 @@ class QueryProcessor:
         self.rel_thre =self.initial_query['relevance_threshold']
 
     def initiate_search(self):
-        keywords = self.initial_query['search_query']
+        if self.initial_query['search_query'] == "":
+            keywords = gen_gs_query(self.initial_query['my_topic'])
+        else:
+            keywords = self.initial_query['search_query']
         initial_url = QueryProcessor.gen_gs_search(keywords)
 
         self.gs_search(initial_url, depth=1)
