@@ -30,7 +30,7 @@ class QueryProcessor:
         initial_url = QueryProcessor.gen_gs_search(keywords)
 
         self.gs_search(initial_url, depth=1)
-        print('initial parsing done')
+        # print('initial parsing done')
         
         while self.validate_search():
             self.perform()
