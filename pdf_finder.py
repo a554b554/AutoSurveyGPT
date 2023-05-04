@@ -10,10 +10,20 @@ import logging
 import time
 import random
 from logging_config import setup_logging
+from selenium.webdriver.chrome.options import Options
+
 
 class PDFFinder:
     def __init__(self, title:str) -> None:
-        self.browser = webdriver.Chrome(executable_path=get_driver_path())
+        chrome_options = Options()
+        chrome_options.add_experimental_option('prefs',  {
+            "download.default_directory": "./pdfs/",
+            "download.prompt_for_download": False,
+            "download.directory_upgrade": True,
+            "plugins.always_open_pdf_externally": True
+            }
+        )
+        self.browser = webdriver.Chrome(executable_path=get_driver_path(), options = chrome_options)
         self.browser.implicitly_wait(5)
         self.logger = logging.getLogger(__name__)
         self.gs_url = QueryProcessor.gen_gs_search(title)
@@ -30,7 +40,7 @@ class PDFFinder:
         res = soup.find_all('div', attrs={'class': 'gs_r gs_or gs_scl'})
         if len(res)==0:
             logging.debug('no gs record found.')
-            self.browser.quit()
+            # self.browser.quit()
             return None
         
         div_html  = res[0]
@@ -45,7 +55,7 @@ class PDFFinder:
             link = url.get('href')
             if 'pdf' in link:
                 logging.debug('pdf link found in direct gs entry: '+link)
-                self.browser.quit()
+                # self.browser.quit()
                 return link
         
 
@@ -55,7 +65,7 @@ class PDFFinder:
             if '/scholar?cluster' in link:
                 logging.debug('pdf link not found, go to all versions')
                 ans = self.parse_cluster(link)
-                self.browser.quit()
+                # self.browser.quit()
                 return ans
 
         return None
@@ -85,15 +95,23 @@ class PDFFinder:
         #otherwise nothing found
         return None
 
+    def close(self):
+        self.browser.quit()
+
+    #download pdf given a url
+    def download_pdf(self, pdf_url):
+        self.browser.get(pdf_url)
 
 
 def unit_test():
     setup_logging()
-    engine = PDFFinder("")
+    engine = PDFFinder("Deeptag")
     url = engine.findPDFURL()
     print(url)
-
-    pass
+    engine.download_pdf(url)
+    time.sleep(10)
+    engine.close()
+ 
 
 if __name__ == "__main__":
     unit_test()
