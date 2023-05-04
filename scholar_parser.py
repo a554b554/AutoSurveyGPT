@@ -9,14 +9,15 @@ from logging_config import setup_logging
 import re
 import time
 import random
+from gpt_config import get_driver_path
 
 class GScholarParser:
-    def __init__(self, driver_path="driver/chromedriver") -> None:
+    def __init__(self) -> None:
         chrome_options = webdriver.ChromeOptions()
         # Adding argument to disable the AutomationControlled flag 
         chrome_options.add_argument("--disable-blink-features=AutomationControlled") 
 
-
+        driver_path = get_driver_path()
 
         self.browser = webdriver.Chrome(executable_path=driver_path, chrome_options=chrome_options)
         self.browser.implicitly_wait(5)

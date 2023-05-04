@@ -4,6 +4,7 @@ AutoSurveyGPT is an open-source program for parsing Google Scholar and finding r
 
 ## Features
 
+- Generate keywords to search on Google Scholar based on input topic description
 - Parse Google Scholar search results
 - Extract information (title, authors, venue, abstract) from individual papers
 - Analyze abstracts using OpenAI GPT (Analyze PDF in development)
@@ -53,8 +54,8 @@ openai_api_key = "your_openai_api_key"
 
 ```python
 {
-  "search_query": "deep learning for novel view synthesis ", #The input keywords that will be used on your google scholar search
-  "my_topic": "We present a method for novel view synthesis from input images that are freely distributed around a scene. Our method does not rely on a regular arrangement of input views, can synthesize images for free camera movement through the scene, and works for general scenes with unconstrained geometric layouts. We calibrate the input images via SfM and erect a coarse geometric scaffold via MVS. This scaffold is used to create a proxy depth map for a novel view of the scene. Based on this depth map, a recurrent encoder-decoder network processes reprojected features from nearby views and synthesizes the new view. Our network does not need to be optimized for a given scene. After training on a dataset, it works in previously unseen environments with no fine-tuning or per-scene optimization. We evaluate the presented approach on challenging real-world datasets, including Tanks and Temples, where we demonstrate successful view synthesis for the first time and substantially outperform prior and concurrent work.", #Try to describ your idea as detail as possible, like a paper abstract. This will be used to compare with existing papers found online.
+  "search_query": "", # (Optional) The input keywords that will be used on your google scholar search, if empty, the system will generate query automatically based on the topic description 
+  "my_topic": "We present a method for novel view synthesis from input images that are freely distributed around a scene. Our method does not rely on a regular arrangement of input views, can synthesize images for free camera movement through the scene, and works for general scenes with unconstrained geometric layouts. We calibrate the input images via SfM and erect a coarse geometric scaffold via MVS. This scaffold is used to create a proxy depth map for a novel view of the scene. Based on this depth map, a recurrent encoder-decoder network processes reprojected features from nearby views and synthesizes the new view. Our network does not need to be optimized for a given scene. After training on a dataset, it works in previously unseen environments with no fine-tuning or per-scene optimization. We evaluate the presented approach on challenging real-world datasets, including Tanks and Temples, where we demonstrate successful view synthesis for the first time and substantially outperform prior and concurrent work.", #Try to describ your idea as detail as possible, like a paper abstract or even introduction. This will be used to compare with existing papers found online.
   "search_breadth": 10, # how many paper to search in a single round
   "search_depth_cited": 2, # how many round of search for paper in cited by 
   "search_depth_related": 2, # how many round of search for paper in related

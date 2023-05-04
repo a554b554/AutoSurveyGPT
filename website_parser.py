@@ -16,8 +16,8 @@ import gpt_config
 import prompt
 
 class GenericWebsiteParser:
-    def __init__(self, driver_path="driver/chromedriver") -> None:
-        self.browser = webdriver.Chrome(driver_path)
+    def __init__(self) -> None:
+        self.browser = webdriver.Chrome(gpt_config.get_driver_path())
         self.browser.implicitly_wait(5)
         self.logger = logging.getLogger(__name__)
         
