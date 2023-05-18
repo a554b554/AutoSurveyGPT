@@ -41,3 +41,15 @@ def read_abstract_prompt(abstract, my_topic):
     }
     return [info_sys, info_user]
 
+
+def pdf_section_extraction_prompt(pdf_text):
+    info_sys = {
+        "role": "system",
+        "content": "You are a PDF parser, I want you to extract particular sections bases on my instructions."
+    }
+
+    info_user = {
+        "role": "user",
+        "content": "Here is the part text extracted from the pdf: [" + pdf_text + "]. I want you to parse me the Introduction section and Related work section. Please return your answer in .json format, with keys <Introduction> and <Related Work>. If either Introduction or Related work is not found, return empty string in corresponding json field. If found, extract full paragraph in both section. Do not use ... as I need the full paragraph for both introduction and related work."
+    }
+    return [info_sys, info_user]
