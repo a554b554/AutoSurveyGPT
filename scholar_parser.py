@@ -140,6 +140,7 @@ class GSEntry:
         self.authors = results['authors']
         self.venue = results['venue']
         self.abstract = results['abstract']
+        # self.link = results['link_to_pdf']
         pass
 
 

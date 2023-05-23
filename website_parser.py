@@ -97,7 +97,7 @@ class GenericWebsiteParser:
             openai.api_key = config.openai_api_key
             res = openai.ChatCompletion.create(
                 model=gpt_config.abstract_parse_model,
-                messages=prompt.read_abstract_prompt(abstract, my_topic)
+                messages=prompt.read_abstract_prompt2(abstract, my_topic)
             )
 
             ans = res['choices'][0]['message']['content']
